@@ -1,6 +1,6 @@
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltEffect from "./scripts/tiltAnimation";
-import { targetElements, defaultProps } from "./data/scrollRevealConfig";
+import {defaultProps, targetElements} from "./data/scrollRevealConfig";
 
 initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
